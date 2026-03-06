@@ -10,7 +10,7 @@ const AboutSection = () => {
             Sobre Mim
           </h2>
           <p className="font-body text-lg text-muted-foreground leading-relaxed mb-6">
-            Sou a Dra. Josiana Fernanda Poquiviqui, psicóloga registrada sob o CRP 18/8067,
+            Sou a Psicóloga Clínica Josiana Fernanda Poquiviqui, registrada sob o CRP 18/8067,
             especializada em Terapia Cognitivo Comportamental (TCC). Meu trabalho é ajudar
             você a compreender seus pensamentos, emoções e comportamentos, promovendo mudanças
             que geram bem-estar e qualidade de vida.

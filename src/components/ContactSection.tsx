@@ -1,4 +1,4 @@
-import { Phone, MapPin, MessageCircle } from "lucide-react";
+import { Phone, MapPin, MessageCircle, Instagram } from "lucide-react";
 import { Button } from "./ui/button";
 
 const ContactSection = () => {
@@ -17,6 +17,12 @@ const ContactSection = () => {
             <div className="flex items-center justify-center gap-3 text-foreground">
               <Phone className="w-5 h-5 text-primary" />
               <span className="font-body text-lg">(65) 9 9915-9691</span>
+            </div>
+            <div className="flex items-center justify-center gap-3 text-foreground">
+              <Instagram className="w-5 h-5 text-primary" />
+              <a href="https://www.instagram.com/nandapsi_cologia" target="_blank" rel="noopener noreferrer">
+                <span className="font-body text-lg">@nandapsi_cologia</span>
+              </a>
             </div>
             <div className="flex items-center justify-center gap-3 text-muted-foreground">
               <MapPin className="w-5 h-5 text-primary" />

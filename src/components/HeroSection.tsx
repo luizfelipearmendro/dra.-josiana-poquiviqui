@@ -20,7 +20,7 @@ const HeroSection = () => {
             Psicóloga — CRP 18/8067
           </p>
           <h1 className="font-heading text-5xl md:text-7xl font-semibold text-primary-foreground leading-tight mb-6">
-            Dra. Josiana<br />
+              Josiana<br />
             <span className="italic font-normal text-accent">Fernanda</span>
           </h1>
           <p className="text-primary-foreground/90 font-body text-lg md:text-xl leading-relaxed mb-4">

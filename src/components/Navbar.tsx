@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="container mx-auto px-6 flex items-center justify-between h-16">
         <a href="#" className="flex items-center gap-2 font-heading text-xl font-semibold text-primary-foreground">
           <img src={logo} alt="Logo" className="w-8 h-8 object-contain" />
-          Dra. Josiana Fernanda
+          Psicóloga Clínica Josiana Fernanda
         </a>
 
         <div className="hidden md:flex gap-8">
