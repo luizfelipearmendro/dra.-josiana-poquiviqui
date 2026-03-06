@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const links = [
   { label: "Sobre", href: "#sobre" },
@@ -11,9 +12,10 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-foreground/20 backdrop-blur-md border-b border-primary-foreground/10">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-[hsl(262,60%,18%,0.6)] backdrop-blur-md border-b border-primary-foreground/10">
       <div className="container mx-auto px-6 flex items-center justify-between h-16">
-        <a href="#" className="font-heading text-xl font-semibold text-primary-foreground">
+        <a href="#" className="flex items-center gap-2 font-heading text-xl font-semibold text-primary-foreground">
+          <img src={logo} alt="Logo" className="w-8 h-8 object-contain" />
           Dra. Josiana Fernanda
         </a>
 
@@ -39,7 +41,7 @@ const Navbar = () => {
       </div>
 
       {open && (
-        <div className="md:hidden bg-foreground/90 backdrop-blur-md px-6 pb-6 space-y-4">
+        <div className="md:hidden bg-[hsl(262,60%,18%,0.95)] backdrop-blur-md px-6 pb-6 space-y-4">
           {links.map((l) => (
             <a
               key={l.href}
