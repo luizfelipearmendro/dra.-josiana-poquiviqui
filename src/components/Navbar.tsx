@@ -39,7 +39,7 @@ const Navbar = () => {
       </div>
 
       {open && (
-        <div className="md:hidden bg-foreground/90 backdrop-blur-md px-6 pb-6 space-y-4">
+        <div className="md:hidden bg-[hsl(262,60%,18%,0.95)] backdrop-blur-md px-6 pb-6 space-y-4">
           {links.map((l) => (
             <a
               key={l.href}
