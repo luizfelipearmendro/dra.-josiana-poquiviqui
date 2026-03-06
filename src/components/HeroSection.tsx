@@ -17,11 +17,11 @@ const HeroSection = () => {
       <div className="container relative z-10 mx-auto px-6 py-20">
         <div className="max-w-xl">
           <p className="text-primary-foreground/80 font-body text-sm tracking-[0.2em] uppercase mb-4">
-            Psicóloga — CRP 18/8067
+            Psicóloga Clínica — CRP 18/8067
           </p>
           <h1 className="font-heading text-5xl md:text-7xl font-semibold text-primary-foreground leading-tight mb-6">
-              Josiana<br />
-            <span className="italic font-normal text-accent">Fernanda</span>
+              Josiana
+            <span className="italic font-normal text-accent"> Fernanda</span>
           </h1>
           <p className="text-primary-foreground/90 font-body text-lg md:text-xl leading-relaxed mb-4">
             Terapia Cognitivo Comportamental
