@@ -30,7 +30,7 @@ const HeroSection = () => {
             Atendimento para Adolescentes, Jovens, Adultos e Idosos
           </p>
           <a
-            href="https://wa.me/5565999159691"
+            href="https://wa.me/5565999159691/?text=Olá%20Dra.%20Fernanda%2C%20gostaria%20de%20agendar%20uma%20consulta."
             target="_blank"
             rel="noopener noreferrer"
           >
