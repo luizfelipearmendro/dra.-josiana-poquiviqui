@@ -11,7 +11,7 @@ const HeroSection = () => {
           alt="Consultório de psicologia acolhedor"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-foreground/80 via-foreground/50 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[hsl(262,60%,18%)] via-[hsl(262,50%,22%,0.85)] to-transparent" />
       </div>
 
       <div className="container relative z-10 mx-auto px-6 py-20">
